@@ -1,0 +1,122 @@
+#title {
+
+  background-color: #cbe8fb;
+  text-align: center;
+  margin: 0 auto;
+  color: #4344d9;
+  font-size: 9vw;
+
+}
+#button,#shinpaku{
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #ff7c5c;
+  padding: 14px 40px;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #8933;
+  font-family: Roboto;
+}
+
+#statusText {
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: 0 auto;
+  color: #4344d9;
+  font-size: 38px;
+
+  overflow-x: visible;
+  cursor: default;
+  padding: 12px 0;
+  /*-webkit-user-select: none;*/
+}
+
+#waves {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+#stop{
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #ff7c5c;
+  padding: 14px 40px;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  text-decoration: none
+}
+
+#hi{
+  font-size: 6vw;
+  text-align: center;
+}
+input{
+  background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid black;
+    padding: 14px 10px;
+    width: 150px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+input[type=button]{
+  width: 100px;
+}
+input:focus{
+  width: 200px;
+}
+#aooo{
+  text-align: center;
+  margin-top: 4vw;
+  font-size: 6vw;
+}
+.help_area {
+	position:relative;
+}
+.help_icon {
+	border-radius:50%;
+	width:20px;
+	height:20px;
+	line-height:20px;
+	vertical-align:middle;
+	font-size:12px;
+	text-align:center;
+	background-color:#888888;
+	color:white;
+	cursor:pointer;
+}
+.tooltip {
+	position:absolute;
+	background-color:rgba(0,0,0,0.5);;
+	color:white;
+	border-radius:0.3em;
+	padding:0.3em;
+	margin:0.3em 0 0 1em;
+	display:none;
+}

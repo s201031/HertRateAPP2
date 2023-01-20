@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Heart App</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  
+</head>
+
+<body>
+  <div id="container">
+    <h1 id="title" onclick="location.href='index.html'">Heart App</h1>
+    <h1 id="hi">心拍数の上限と下限を設定します</h1><br>
+    
+    <input type="number" id="hmin" maxlength="2" placeholder="最小値"></input><br>
+    <input type="number" id="hMax" maxlength="3" placeholder="最大値"></input><br>
+    <input type="button" onclick="set()" value="設定"></input>
+    <div class="help_area">
+	    <div class="help_icon">?</div>
+	    <div class="tooltip">
+		    平均は50~100です。
+	    </div>
+    </div><br>
+    <!--<div id="statusText"></div>
+    <canvas></canvas>-->
+
+  </div>
+  <script src="app.js"></script>
+  <script src="heartRateSensor.js"></script> 
+  <script src="script.js"></script>   
+</body>
+</html>
